@@ -20,7 +20,7 @@ The second part of the idea is using On-Device ML to suggest to them how they ca
 ### Tell us how you plan on bringing it to life.
 1) I have already implemented the first phase of the app where you can either open the app and type/paste your text and you can analyze it for the level of negative/positivity and it also filters your negative statements depending on your score and magnitude or you can also just select any text in any app and then you can use analyze action in the floating text selection toolbar to easily access it. The APK and some screenshots are attached to the repository and the code is a part of a private repo as of now ( I can give access to it and can also make it open source if needed). It’s also available for testing as a part of my Click2Chat app
 -h​ttps://play.google.com/store/apps/details?id=com.mtechviral.clicktochat
-1) I can use Google's help in implementing the second phase where I need Google's guidance to implement the On-Device Machine Learning using Tensorflow Lite or MLKit by which I can give suggestions to the users that how can they improve their statements like the anomaly keywords or even full phrases. Right now, I can only show them which statement is negative but I want to show them suggestions based on machine learning which will improve by time. Also, I want Google’s mentorship to learn how can I train my model using this data submitted to the app/tool.
+1) I can use Google's help in implementing the second phase where I need Google's guidance to implement the On-Device Machine Learning (for offline capabilities) using Tensorflow Lite or MLKit by which I can give suggestions to the users that how can they improve their statements like the anomaly keywords or even full phrases. Right now, I can only show them which statement is negative but I want to show them suggestions based on machine learning which will improve by time. Also, I want Google’s mentorship to learn how can I train my model using this data submitted to the app/tool.
    
 2) The planned timeline is -
     #### (Nov 2019 - Dec 2019) - 1st phase implementation and giving it to the users to get the feedback.
@@ -29,8 +29,9 @@ The second part of the idea is using On-Device ML to suggest to them how they ca
     - [x] Analyze action in floating text selection toolbar - **Done**
     - [ ] Machine Learning-Based Suggestions to improve the statements.
     - [ ] Using Tensorflow to train the model.
+    - [ ] Making it offline using On-Device ML for privacy concerns.
     #### (Jan 2020 - Feb 2020) - Implementing the 2nd phase using Google's help and support to implement machine learning-based suggestions and also researching more use cases around this.
-    #### (Mar 2020) - Using Tensorflow to train the model using the app’s data and get collect more feedbacks.
+    #### (Mar 2020) - Using Tensorflow to train the model using the app’s data and also working on making it offline using On-Device ML for privacy concerns.
     #### (Apr 2020) - Beta Testing the app with all features and releasing it.
 
 ## Some Existing Implementation
